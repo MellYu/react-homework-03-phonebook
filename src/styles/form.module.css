@@ -1,0 +1,15 @@
+.mainForm{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.nameLabel{
+    margin-bottom: 15px;
+}
+
+.numberLabel{
+    margin-bottom: 15px;
+}

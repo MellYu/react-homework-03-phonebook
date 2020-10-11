@@ -1,0 +1,25 @@
+.bookItem{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.contactName{
+    margin-right: 20px;
+}
+
+.bookItem::before{
+    display: block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+.deleteBtn{
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(235, 232, 232);
+}
